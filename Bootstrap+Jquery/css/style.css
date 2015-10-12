@@ -1,0 +1,507 @@
+
+body{
+	padding-top: 70px;
+	height: 3000px;
+}
+
+/*********** Start Overriding Bootstrap *******/	
+.navbar{
+	min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: #E41B17;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #BBB;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #BBB;
+	line-height: 40px;
+	font-size: 30px;
+}
+.navbar-inverse .navbar-brand span{
+	color: #E41B17;
+}
+
+.dropdown-menu{
+	background-color: #333;
+	border-top: 3px solid C
+}
+
+.dropdown-menu > li > a{
+	color: #FFF;
+}
+
+.dropdown-menu > li >a:hover,
+.dropdown-menu > li >a:focus{
+
+	background-color: #E41B17;
+	padding-left: 25px;
+	-webkit-transition: padding 0.5s ease;
+	-moz-transition: padding 0.5s ease;
+	-o-transition: padding 0.5s ease;
+	transition: padding 0.5s ease;
+}
+
+
+
+.dropdown-menu .divider{
+	background-color: #B11B1B;
+	
+}
+
+
+/* Carousel */
+.carousel-caption{
+	bottom: 70px;
+	background: rgba(3,3,3,0.3);
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.carousel-indicators{
+	bottom: 0;
+}
+
+.carousel-indicators li{
+	height: 15px;
+	width: 15px;
+	border: 1px solid #EEE; 
+}
+.carousel-indicators .active{
+	height: 17px;
+	width: 17px;
+	background: #E41B17; 
+}
+
+/*********** End Overriding Bootstrap *******/
+
+/*********** Start Section About *******/
+
+.about{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.about h1{
+	font-weight: bold;
+}
+.about .lead{
+	color: #888;
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+.about h1 span{
+	color: #E41B17;
+}
+/*********** End Section About *******/
+
+/*********** Start Section Features *******/
+
+.features{
+	background: #EEE;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.features .feat p{
+	line-height: 2em;
+}
+
+.features h1{
+	margin-bottom: 50px;
+}
+
+.features .feat span .fa{
+	font-size: 25px;
+}
+
+/*********** End Section Features *******/
+
+/*********** End Testimonials *******/
+
+.testimonials{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.testimonials h1{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.testimonials span{
+	font-size: 18px;
+	font-weight: bold;
+	color: #E41B17;
+}
+
+  .lead {
+	line-height: 2em;
+	padding-bottom: 10px;
+}
+
+.testimonials .carousel-indicators{
+	position: static;
+	width: 100%;
+	margin-left: auto;
+	padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li{
+	text-indent: 0;
+	width: 80px;
+	height: 80px;
+	opacity: 0.3;
+	border: 3px solid #FFF;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 5px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.testimonials .carousel-indicators li.active{
+	opacity: 1;
+	width: 80px;
+	height: 80px;
+	background: none;
+	border: 3px solid #E41B17;
+}
+
+.testimonials .carousel-indicators li img{
+	width: 100%;
+	
+}
+
+/*********** End Testimonials*******/
+
+/*********** Start Table Price*******/
+
+.price_table{
+	background: #EEE;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.price_table h1{
+	margin-bottom: 40px;
+}
+
+.price_table .price_box{
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #DDD;
+}
+
+.price_table .price_box h2{
+	margin: 5px 0 15px;
+}
+
+.price_table .price_box:hover p{
+	-webkit-transform:scale(1.1,1.1) rotate(360deg);
+	-moz-transform:scale(1.1,1.1) rotate(360deg);
+	-o-transform:scale(1.1,1.1) rotate(360deg);
+	transform:scale(1.1,1.1) rotate(360deg);
+	border: 2px solid #DFDFDF;
+}
+
+.price_table .price_box p{
+	font-size: 35px;
+	font-weight: bold;
+	color: #666;
+	width: 100px;
+	height: 100px;
+	background: #F3F3F3;
+	border-radius: 50%;
+	border:2px solid #FFF;
+	line-height:100px;
+	-webkit-transition-duration:0.7s;
+	-moz-transition-duration:0.7s;
+	-o-transition-duration:0.7s;
+	transition-duration:0.7s;
+}
+
+.price_table .price_box ul{
+	line-height: 250%
+	font-size18px;
+}
+.price_table .price_box a{
+	margin-bottom: 5px;
+}
+
+/*********** End Table Price*******/
+
+/*********** Start Our Team*******/
+
+.our_team{
+	background: url("../images/team.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	min-height: 600px;
+}
+
+
+.our_team .team{
+	background: rgba(2,2,2,0.7);
+	color: #FFF;
+	min-height: 600px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.our_team h1{
+	margin-bottom: 60px;
+}
+
+.our_team .person{
+	margin-bottom: 40px;
+}
+
+
+/*********** End Our Team*******/
+  
+/*********** Start Subscribe*******/
+
+.subscribe {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #EEE;
+}
+
+.subscribe h1{
+	color: #888;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+.subscribe p{
+	margin-bottom: 30px;
+}
+
+.subscribe .form-control{
+	border-radius: 0;
+	margin-right: 5px;
+	width: 300px;
+}
+
+.subscribe button{
+	border-radius: 0;
+}
+/*********** End Subscribe*******/
+
+/*********** Start Statistics*******/
+
+.statistics{
+	background: url("../images/stats.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	height: 550px;
+}
+
+.statistics .data{
+	background-color: rgba(2,2,2,0.8);
+	color: #B6B5B5;
+	min-height: 550px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.statistics .stats{
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	margin-bottom: 30px;
+}
+
+.statistics .stats:hover{
+	color: #FFF;
+}
+
+.statistics h1{
+	margin-bottom: 60px;
+}
+
+.statistics p{
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 0;
+}
+
+.statistics span{
+	font-size: 18px;
+}
+/*********** End Statistics*******/
+
+/*********** Start Our Skills*******/
+
+.our-skills{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.our-skills h1{
+	margin-bottom: 60px;
+}
+
+.our-skills h3{
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.our-skills .progress{
+	height: 36px;
+}
+
+.our-skills .progress-bar{
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px;
+}
+
+
+/*********** End Our Skills*******/
+
+/*********** Start Contact -Us*******/
+
+.contact-us{
+	background: url("../images/contact.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	height: 500px;
+}
+
+.contact-us .fields{
+	background: rgba(9,9,9,0.8);
+	min-height: 500px;
+	color: #DDD;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.contact-us p{
+	margin-bottom: 40px;
+}
+
+.contact-us textarea{
+	height: 108px;
+}
+
+.contact-us input[type="text"],
+.contact-us textarea{
+
+}
+/*********** End Contact -Us*******/
+
+/*********** Start Our Clients*******/
+.our-clients{
+	background: #EEE;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.our-clients img{
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+
+}
+
+.our-clients img:hover{
+	opacity:1;
+}
+/*********** End Our Clients*******/
+
+/*********** Start Footer*******/
+.footer{
+	background: #111;
+	color: #AAA;
+	padding-top: 20px;
+	
+}
+
+.footer a{
+	color: #AAA;
+}
+
+.footer a:hover{
+	color: #FFF;
+}
+
+.footer h3{
+	color: #0895D1;
+	letter-spacing: 1px;
+	margin:30px 0 20px;
+}
+
+.footer .three-columns{
+	overflow: hidden;
+}
+
+.footer .three-columns li{
+	width: 33.3333%;
+	float: left;
+	padding: 15px 0;
+}
+
+.footer .social-list{
+	overflow: hidden;
+	margin: 20px 0 10px;
+}
+
+.footer .social-list li{
+	float: left;
+	margin-right: 3px;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	-webki-transition:all 0.7s ease-in-out;
+	-moz-transition:all 0.7s ease-in-out;
+	-o-transition:all 0.7s ease-in-out;
+	transition:all 0.7s ease-in-out;
+}
+
+.footer .social-list li:hover{
+	opacity: 1;
+}
+
+.footer .img-thumbnail{
+	background: rgba(0,0,0,0.2);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+}
+
+.footer .copyright{
+	background: #333;
+	color: #FFF;
+	padding: 15px 0;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.footer .copyright span{
+	color: #0895D1;
+}
+/*********** End Footer*******/
